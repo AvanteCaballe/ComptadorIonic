@@ -1,7 +1,7 @@
 <template>
   <ion-page>
     <ion-header :translucent="true">
-      <ion-toolbar>
+      <ion-toolbar color="secondary">
         <ion-title>Time Fighter</ion-title>
         <ion-buttons slot="end">
           <ion-button color="primary" fill="solid" @click="info">
