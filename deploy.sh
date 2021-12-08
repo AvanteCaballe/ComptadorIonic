@@ -16,11 +16,11 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git remote add origin git@github.com:AvanteCaballe/ComptadorIonic.git || true
+git remote add origin git@github.com:AvanteCaballe/comptador-ionic.git || true
 
 git branch -M main || true
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:AvanteCaballe/ComptadorIonic.git main
+git push -f git@github.com:AvanteCaballe/comptador-ionic.git main
 
 cd -
